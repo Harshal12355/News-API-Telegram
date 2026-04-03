@@ -3,7 +3,7 @@ name: Daily News to Telegram
 on:
   schedule:
     - cron: '0 14 * * *' # 9 AM EST (14:00 UTC)
-
+  workflow_dispatch: {}
 jobs:
   digest:
     runs-on: ubuntu-latest
