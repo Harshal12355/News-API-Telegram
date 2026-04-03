@@ -3,7 +3,7 @@ name: Daily News to Telegram
 on:
   schedule:
     # 9:20 AM US Eastern (handles EST/EDT).
-    - cron: "20 9 * * *"
+    - cron: "30 9 * * *"
       timezone: America/New_York
   workflow_dispatch: {}
 jobs:
